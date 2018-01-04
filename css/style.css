@@ -3,12 +3,12 @@ body {
 }
 /* unvisited link */
 a:link {
-    color: red;
+    color: white;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: #dddddd;
 }
 
 /* mouse over link */
@@ -18,9 +18,32 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: blue;
+    color: yellow;
 }
 .well-body {
   font-size: 26px;
+
+}
+
+.bg{
+  background-image: url(../img/nk_flag.png);
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bg_1{
+  background-image: url(../img/nk_flag.png);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 25px;
+  padding-bottom: 325px;
+}
+
+.heading_vacation {
+  font-size: 38px;
+  color: white;
+  font-style: oblique;
+
 
 }
